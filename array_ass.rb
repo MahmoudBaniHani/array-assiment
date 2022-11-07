@@ -70,7 +70,7 @@ class Task
 	def array_as_string
 		puts @arr_value.join(',')
 	end
-	def print_number_bigers_number
+	def print_number_biggest_number
 		puts "Please Enter your number"
 		number = gets.chomp.to_i
 		 for element in @arr_value do
