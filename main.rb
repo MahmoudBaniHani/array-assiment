@@ -1,8 +1,6 @@
 require_relative('array_ass')
 
-
-
-def main
+class Main
 	puts "Enter Your Number ....."
 	number = gets.chomp.to_i
 	obj_task = Task.new
@@ -58,4 +56,4 @@ def main
    	end
 end
 
-main
+Main
